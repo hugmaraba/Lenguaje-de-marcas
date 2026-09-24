@@ -1,0 +1,31 @@
+<dam>
+
+    <modulo>
+        <titulo>Lenguaje de Marcas</titulo>
+        <contenido>
+            <unidad>Introducción</unidad>
+            <unidad>HTML</unidad>
+            <unidad>CSS</unidad>
+        </contenido>
+    </modulo>
+
+    <modulo>
+        <titulo>Sistemas Informáticos</titulo>
+        <contenido>
+            <unidad>Hardware</unidad>
+            <unidad>Software</unidad>
+            <unidad>Sistemas operativos</unidad>
+        </contenido>
+    </modulo>
+
+    <modulo>
+        <titulo>Programación</titulo>
+        <contenido>
+            <unidad>Introducción a la programación</unidad>
+            <unidad>Variables</unidad>
+            <unidad>Condicionales</unidad>
+            <unidad>Bucles</unidad>
+        </contenido>
+    </modulo>
+
+</dam>
