@@ -1,0 +1,24 @@
+<paises>
+
+    <pais>
+        <nombre>España</nombre>
+        <capital>Madrid</capital>
+        <continente>Europa</continente>
+        <poblacion>48 millones</poblacion>
+    </pais>
+
+    <pais>
+        <nombre>Francia</nombre>
+        <capital>París</capital>
+        <continente>Europa</continente>
+        <poblacion>68 millones</poblacion>
+    </pais>
+
+    <pais>
+        <nombre>Japón</nombre>
+        <capital>Tokio</capital>
+        <continente>Asia</continente>
+        <poblacion>124 millones</poblacion>
+    </pais>
+
+</paises>
