@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tabla de productos</title>
+
+    <style>
+        table {
+            border-spacing: 8px;
+            empty-cells: hide;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        caption {
+            caption-side: bottom;
+        }
+
+        thead {
+            background-color: lightblue;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: lightgray;
+        }
+
+        tfoot {
+            background-color: lightgreen;
+        }
+
+        .centrado {
+            vertical-align: middle;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+
+        <caption>Lista de productos de la tienda</caption>
+
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Tipo</th>
+                <th>Cantidad </th>
+                <th>Precio unidad (€)</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Teclado</td>
+                <td>Mecanico</td>
+                <td>2</td>
+                <td>25 €</td>
+                <td>50 €</td>
+            </tr>
+
+            <tr>
+                <td>Ratón</td>
+                <td>Gaming</td>
+                <td>3</td>
+                <td>15 €</td>
+                <td>45 €</td>
+            </tr>
+
+            <tr>
+                <td class="centrado">Monitor</td>
+                <td>120Ghz</td>
+                <td>1</td>
+                <td>150 €</td>
+                <td>150 €</td>
+            </tr>
+
+            <tr>
+                <td>Webcam</td>
+                <td>Streaming</td>
+                <td>2</td>
+                <td>30 €</td>
+                <td>60 €</td>
+            </tr>
+
+            <tr>
+                <td>Alfombrilla</td>
+                <td>Luces (LED)</td>
+                <td>4</td>
+                <td>10 €</td>
+                <td>40 €</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th colspan="4">SUMA TOTAL</th>
+                <th colspan="2">305 €</th>
+            </tr>
+        </tfoot>
+
+    </table>
+
+
+
+</body>
+</html>
+
+
