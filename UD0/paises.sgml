@@ -1,24 +1,29 @@
-<paises>
+<table border="1">
+    <tr>
+        <th>Nombre</th>
+        <th>Capital</th>
+        <th>Continente</th>
+        <th>Población</th>
+    </tr>
 
-    <pais>
-        <nombre>España</nombre>
-        <capital>Madrid</capital>
-        <continente>Europa</continente>
-        <poblacion>48 millones</poblacion>
-    </pais>
+    <tr>
+        <td>España</td>
+        <td>Madrid</td>
+        <td>Europa</td>
+        <td>48 millones</td>
+    </tr>
 
-    <pais>
-        <nombre>Francia</nombre>
-        <capital>París</capital>
-        <continente>Europa</continente>
-        <poblacion>68 millones</poblacion>
-    </pais>
+    <tr>
+        <td>Francia</td>
+        <td>París</td>
+        <td>Europa</td>
+        <td>68 millones</td>
+    </tr>
 
-    <pais>
-        <nombre>Japón</nombre>
-        <capital>Tokio</capital>
-        <continente>Asia</continente>
-        <poblacion>124 millones</poblacion>
-    </pais>
-
-</paises>
+    <tr>
+        <td>Japón</td>
+        <td>Tokio</td>
+        <td>Asia</td>
+        <td>124 millones</td>
+    </tr>
+</table>
