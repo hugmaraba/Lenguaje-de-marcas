@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de desarrollo web</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            color: #23476b;
+        }
+
+        #indice {
+            background-color: #eaf3fc;
+            padding: 15px;
+        }
+
+        pre {
+            background-color: #eeeeee;
+            padding: 15px;
+            white-space: pre-wrap;
+        }
+
+        hr {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 id="inicio">Guía de desarrollo web</h1>
+
+    <!-- ÍNDICE -->
+
+    <div id="indice">
+        <h2>Índice</h2>
+
+        <ul>
+            <li><a href="#html">1. HTML</a></li>
+            <li><a href="#css">2. CSS</a></li>
+            <li><a href="#javascript">3. JavaScript</a></li>
+            <li><a href="#herramientas">4. Herramientas de desarrollo</a></li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <!-- SECCIÓN 1: HTML -->
+
+    <h2 id="html">1. HTML</h2>
+
+    <p>
+        HTML es un lenguaje de marcado que se utiliza para crear
+        la estructura de las páginas web. Permite añadir títulos,
+        párrafos, imágenes, enlaces, listas y tablas.
+    </p>
+
+    <p>
+        Los elementos HTML se escriben mediante etiquetas.
+        Por ejemplo, h1 sirve para crear un título principal
+        y p se utiliza para escribir un párrafo.
+    </p>
+
+    <p>
+        También podemos utilizar la etiqueta a para crear enlaces
+        a otras páginas. Para insertar imágenes utilizamos img,
+        mientras que ul y li permiten crear listas.
+    </p>
+
+    <h3>Ejemplo de HTML</h3>
+
+    <pre>
+&lt;h1&gt;Mi primera página&lt;/h1&gt;
+&lt;p&gt;Bienvenido a mi página web.&lt;/p&gt;
+&lt;a href="https://www.w3.org/"&gt;Visitar W3C&lt;/a&gt;
+    </pre>
+
+    <p>
+        En este ejemplo utilizamos h1 para crear un título,
+        p para escribir un párrafo y a para añadir un enlace.
+    </p>
+
+    <p><a href="#inicio">↑ Volver al índice</a></p>
+
+    <hr>
+
+    <!-- SECCIÓN 2: CSS -->
+
+    <h2 id="css">2. CSS</h2>
+
+    <p>
+        CSS es un lenguaje que permite dar estilo a las páginas web.
+        Con él podemos cambiar los colores, los tamaños de letra,
+        los márgenes y los fondos.
+    </p>
+
+    <p>
+        Podemos escribir los estilos dentro de la etiqueta style
+        o guardarlos en un archivo CSS independiente.
+    </p>
+
+    <p>
+        CSS también permite organizar los elementos de una página
+        y adaptar su diseño a diferentes tamaños de pantalla.
+    </p>
+
+    <h3>Ejemplo de CSS</h3>
+
+    <pre>
+p {
+    color: blue;
+    font-size: 20px;
+}
+    </pre>
+
+    <p>
+        En este ejemplo, todos los párrafos tendrán el texto de color
+        azul y un tamaño de letra de 20 píxeles si aplicamos estas reglas.
+    </p>
+
+    <p><a href="#inicio">↑ Volver al índice</a></p>
+
+    <hr>
+
+    <!-- SECCIÓN 3: JAVASCRIPT -->
+
+    <h2 id="javascript">3. JavaScript</h2>
+
+    <p>
+        JavaScript es un lenguaje de programación que permite añadir
+        interactividad a las páginas web. Por ejemplo, podemos mostrar
+        mensajes, validar formularios y responder a las acciones del usuario.
+    </p>
+
+    <p>
+        JavaScript puede modificar el contenido de una página
+        sin necesidad de recargarla por completo.
+    </p>
+
+    <p>
+        HTML proporciona la estructura, CSS controla la apariencia
+        y JavaScript permite añadir comportamientos interactivos.
+    </p>
+
+    <h3>Ejemplo de JavaScript</h3>
+
+    <pre>
+function saludar() {
+    alert("¡Hola! Bienvenido a mi página web.");
+}
+    </pre>
+
+    <p>
+        En este ejemplo creamos una función llamada saludar.
+        Cuando se ejecuta, muestra un mensaje de bienvenida
+        en una ventana emergente.
+    </p>
+
+    <h3>Otros usos de JavaScript</h3>
+
+    <ul>
+        <li>Validar los datos de un formulario.</li>
+        <li>Mostrar mensajes al usuario.</li>
+        <li>Modificar el contenido de una página.</li>
+        <li>Crear animaciones e interacciones.</li>
+        <li>Comprobar los datos introducidos por el usuario.</li>
+    </ul>
+
+    <p><a href="#inicio">↑ Volver al índice</a></p>
+
+    <hr>
+
+    <!-- SECCIÓN 4: HERRAMIENTAS -->
+
+    <h2 id="herramientas">4. Herramientas de desarrollo</h2>
+
+    <p>
+        Visual Studio Code es un editor de código que permite crear
+        páginas web con HTML, CSS y JavaScript.
+    </p>
+
+    <p>
+        Live Server es una extensión que permite abrir una página
+        en el navegador y visualizar los cambios al guardar el archivo.
+    </p>
+
+    <p>
+        El validador del W3C permite comprobar si un documento HTML
+        cumple las normas del lenguaje y ayuda a detectar errores.
+    </p>
+
+    <p>
+        Las herramientas para desarrolladores del navegador permiten
+        inspeccionar elementos, revisar estilos y encontrar problemas.
+        Normalmente se abren pulsando F12.
+    </p>
+
+    <h3>Enlaces de interés</h3>
+
+    <ul>
+        <li>
+            <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">
+                Descargar Visual Studio Code
+            </a>
+        </li>
+
+        <li>
+            <a href="https://validator.w3.org/" target="_blank" rel="noopener noreferrer">
+                Validador HTML del W3C
+            </a>
+        </li>
+
+        <li>
+            <a href="https://developer.mozilla.org/es/" target="_blank" rel="noopener noreferrer">
+                Documentación MDN
+            </a>
+        </li>
+    </ul>
+
+    <p><a href="#inicio">↑ Volver al índice</a></p>
+
+    <hr>
+
+    <p>Fin de la guía de desarrollo web.</p>
+
+</body>
+
+</html>
