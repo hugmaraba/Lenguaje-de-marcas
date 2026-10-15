@@ -1,0 +1,12 @@
+MI SITIO WEB PERSONAL
+
+Descripción:
+Este proyecto consiste en crear un sitio web personal
+utilizando HTML.
+
+Objetivos:
+1. Aprender a crear páginas web.
+2. Utilizar enlaces entre diferentes documentos.
+3. Crear un menú de navegación.
+4. Organizar el contenido mediante secciones.
+5. Utilizar enlaces de descarga.
