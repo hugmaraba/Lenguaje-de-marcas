@@ -1,0 +1,17 @@
+Línea 1: La declaración DOCTYPE está mal escrita. Pone <!DOCTYPE htm> y debe ser <!DOCTYPE html>.
+
+Línea 2: El atributo lang está mal escrito. Pone lan=es y debe ser lang="es".
+
+Línea 3: Falta la etiqueta <meta charset="UTF-8"> para indicar la codificación de caracteres.
+
+Línea 4: La etiqueta <title> no está cerrada antes de terminar la cabecera. Falta </title>.
+
+Línea 7: La etiqueta <h1> no está cerrada correctamente. Pone <h1> dos veces y debe terminar con </h1>.
+
+Línea 8: Las etiquetas <b> y </b> están mal anidadas. La etiqueta </b> debe aparecer antes de </p>.
+
+Línea 9: Falta cerrar el párrafo del horario con </p>.
+
+Línea 11: La etiqueta <li> del elemento Teléfono no está cerrada con </li>.
+
+Línea 12: La etiqueta <li> del elemento Email no está cerrada con </li>.
