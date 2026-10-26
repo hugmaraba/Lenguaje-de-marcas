@@ -1,0 +1,28 @@
+/* Selector universal: establece la fuente para toda la página */
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* Selector de tipo h1: estilo del título principal */
+h1 {
+    color: darkblue;
+    text-align: center;
+    font-size: 32px;
+}
+
+/* Selector de tipo h2: estilo de los subtítulos */
+h2 {
+    color: green;
+}
+
+/* Selector de tipo p: justifica los párrafos */
+p {
+    text-align: justify;
+}
+
+/*
+Prueba del orden:
+Si muevo la regla universal (*) al final del archivo,
+el resultado visual no cambia, porque establece la fuente
+y las otras reglas modifican propiedades diferentes.
+*/
