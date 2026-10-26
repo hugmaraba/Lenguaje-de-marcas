@@ -1,0 +1,52 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Agrupación de selectores */
+.tarjeta, h1 {
+    text-align: center;
+}
+
+/* Estilos de la tarjeta */
+.tarjeta {
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+}
+
+/* Agrupación de declaraciones para el título */
+h1 {
+    color: darkblue;
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+/* Estilo de la descripción */
+.descripcion {
+    color: #555555;
+    line-height: 1.5;
+}
+
+/* Estilo del precio */
+.precio {
+    color: darkgreen;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Estilo del enlace */
+.boton {
+    display: inline-block;
+    padding: 10px 16px;
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
