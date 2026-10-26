@@ -1,0 +1,17 @@
+/* Selector de id */
+#corp {
+    color: darkblue;
+    text-align: center;
+    font-size: 32px;
+}
+
+/* Selector de atributo: enlaces que tienen target */
+a[target] {
+    color: orange;
+}
+
+/* Selector de atributo: párrafos que tienen class */
+p[class] {
+    background-color: lightyellow;
+    padding: 10px;
+}
