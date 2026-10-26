@@ -1,0 +1,27 @@
+/* 1. Naranja solo para el em que está dentro del h1 del artículo */
+.articulo h1 em {
+    color: orange;
+}
+
+/* 2. Fondo gris claro solo para los párrafos dentro de los li */
+li p {
+    background-color: lightgray;
+}
+
+/* 3. Borde izquierdo solo para los párrafos dentro de comentarios */
+.comentarios p {
+    border-left: 4px solid blue;
+    padding-left: 10px;
+}
+
+/* 4. Estilo para los párrafos que tienen la clase especial */
+p.especial {
+    color: red;
+    font-weight: bold;
+}
+
+/* 5. Estilo para cualquier elemento que tenga la clase especial */
+.especial {
+    background-color: lightyellow;
+    padding: 5px;
+}
