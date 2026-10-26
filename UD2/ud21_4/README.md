@@ -4,15 +4,15 @@
 
 ### 1. Error por repetir un id
 
-He asignado temporalmente el mismo id (`corp`) a dos elementos HTML y he validado la página con el validador W3C.
+He asignado temporalmente el mismo id (`corp`) a dos elementos HTML diferentes y he validado la página con el validador W3C.
 
 **Mensaje de error del validador:**
 
-[Pega aquí el mensaje exacto que aparece en el validador.]
+`Error: Duplicate ID corp.`
 
 ### 2. Corrección del error
 
-He corregido el error cambiando el id del segundo elemento por una clase. De esta forma, el id `corp` solo aparece una vez en la página.
+He corregido el error cambiando el id del segundo elemento por una clase (`class="corp"`). De esta forma, el id `corp` solo aparece una vez en la página.
 
 ### 3. ¿Por qué se desaconseja utilizar selectores de id para estilizar?
 
