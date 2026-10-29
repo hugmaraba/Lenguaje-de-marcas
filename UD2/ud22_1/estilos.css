@@ -1,0 +1,32 @@
+/*Estilos generales*/
+body{
+  font-family:Arial,sans-serif;
+  margin:30px;
+  background-color:#f5f5f5;
+  color:#333333;
+}
+
+/*Titulo pricipal*/
+h1{
+  color:darkred;
+}
+
+/*Titulos secundarios o subtitulos*/
+h2{
+  color:darkblue;
+}
+
+/*Lista ingredientes*/
+.ingredientes{
+  list-style-type:square;
+}
+
+/*Lista elaboracion*/
+.elaboracion{
+  list-style-type:upper-roman;
+}
+
+/*Lista utensilios*/
+.utensilios{
+  list-style-type:circle
+}
