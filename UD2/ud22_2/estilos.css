@@ -1,0 +1,31 @@
+/* Estilos generales de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: #f5f5f5;
+    color: #333333;
+}
+
+/* Título principal */
+h1 {
+    color: darkblue;
+}
+
+/* Títulos de las listas */
+h2 {
+    color: darkgreen;
+}
+
+/* Lista con viñetas fuera del texto */
+.tareas-outside {
+    list-style: url("img/check.png") outside disc;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+/* Lista con viñetas dentro del texto */
+.tareas-inside {
+    list-style: url("img/check.png") inside disc;
+    line-height: 1.8;
+}
+
