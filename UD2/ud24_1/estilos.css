@@ -1,108 +1,35 @@
 
-/* ESTILOS GENERALES */
-body {
-    background-color: white;
-    font-family: "Times New Roman", serif;
-    margin: 0;
-    padding: 30px;
+/* PARTE A */
+
+/* Página principal */
+.pagina {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: deeppink
 }
 
-/* FORMULARIO */
-.formulario {
-    width: 435px;
-    background-color: #e99478;
-    margin: 20px auto;
-    padding: 8px;
-    box-sizing: border-box;
-}
-
-/* TITULO */
-h2 {
-    color: #633b30;
-    font-size: 18px;
-    margin: 5px 10px 15px;
-}
-
-/* TABLA */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    table-layout: fixed;
-}
-
-/* COLUMNAS */
-td {
-    border: 2px solid white;
-    padding: 3px;
-    color: #35251f;
-    font-size: 12px;
-    font-weight: bold;
-    vertical-align: middle;
-}
-
-/* ANCHO DE LAS COLUMNAS */
-td:first-child {
-    width: 45%;
-}
-
-td:last-child {
-    width: 55%;
-}
-
-/* CAMPOS DE TEXTO */
-input[type="text"] {
-    width: 95px;
-    box-sizing: border-box;
-}
-
-input[name="email"] {
-    width: 75%;
-}
-
-input[type="password"] {
-    width: 100px;
-    box-sizing: border-box;
-}
-
-/* IDENTIFICADOR */
-.identificador {
+/* Cabecera */
+.cabecera {
+    background-color: lightblue;
+    border: 2px solid blue;
     text-align: center;
+    padding: 15px;
 }
 
-/* RADIO Y CHECKBOX */
-input[type="radio"],
-input[type="checkbox"] {
-    margin: 2px;
+/* Contenido */
+.contenido {
+    background-color: lightgray;
+    border: 2px solid gray;
+    padding: 10px;
 }
 
-/* PAIS */
-select {
-    font-size: 12px;
-}
-
-/* FOTOGRAFIA */
-input[type="file"] {
-    width: 100%;
-    font-size: 11px;
-}
-
-/* COMENTARIOS */
-textarea {
-    width: 100%;
-    height: 65px;
-    box-sizing: border-box;
-    font-family: monospace;
-    font-size: 11px;
-}
-
-/* BOTONES */
-.boton {
+/* Pie de página */
+.pie {
+    background-color: lightgreen;
+    border: 2px solid green;
     text-align: center;
-}
-
-button {
-    font-family: Arial, sans-serif;
-    font-size: 12px;
-    padding: 3px 8px;
-    cursor: pointer;
+    padding: 10px;
+    margin-top: 20px;
 }
