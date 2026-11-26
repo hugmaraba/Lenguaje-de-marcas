@@ -1,0 +1,41 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 500px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: darkblue;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+tr:not(:first-child):hover {
+    background-color: yellow;
+}
+
+li:nth-child(3n+1) {
+    color: blue;
+}
+
+li:nth-child(3) {
+    font-weight: bold;
+}
