@@ -1,0 +1,79 @@
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f5f9;
+    color: #263238;
+}
+
+/* Cabecera */
+header {
+    background-color: #263b59;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Menú de navegación */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Opciones del menú */
+nav li {
+    margin: 10px;
+}
+
+/* Enlaces */
+nav a {
+    display: inline-block;
+    background-color: #16a085;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #16a085;
+    border-radius: 10px;
+}
+
+/* Efecto al pasar el ratón */
+nav a:hover {
+    background-color: white;
+    color: #16a085;
+}
+
+/* Contenido */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #dce3eb;
+}
+
+section h2 {
+    color: #16a085;
+}
+
+/* Pie de página */
+footer {
+    background-color: #263b59;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
