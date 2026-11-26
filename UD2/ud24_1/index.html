@@ -3,168 +3,40 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de alta de usuario</title>
-
-    <!-- Conexión con el archivo CSS -->
+    <title>Mi portfolio</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
-
 <body>
 
-    <div class="formulario">
+    <div class="pagina">
 
-        <h2>Formulario de alta de usuario</h2>
+        <div class="cabecera">
+            <h1>Mi portfolio</h1>
+            <p>Alumno de 1º DAW</p>
+        </div>
 
-        <form action="#" method="POST" enctype="multipart/form-data">
+        <div class="contenido">
 
-            <table>
+            <div class="tarjeta">
+                <h2>Proyecto 1</h2>
+                <p>Descripción breve del proyecto.</p>
+            </div>
 
-                <!-- Identificador -->
-                <tr>
-                    <td colspan="2" class="identificador">
-                        <label for="usuario">Identificador de nuevo usuario</label>
-                        <input type="text" id="usuario" name="usuario"
-                        value="usu_012345" readonly
-                        title="Identificador de usuario">
-                    </td>
-                </tr>
+            <div class="tarjeta">
+                <h2>Proyecto 2</h2>
+                <p>Descripción breve del proyecto.</p>
+            </div>
 
-                <!-- Nombre y apellidos -->
-                <tr>
-                    <td>
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" id="nombre" name="nombre"
-                        title="Introduce tu nombre">
-                    </td>
+            <div class="tarjeta">
+                <h2>Proyecto 3</h2>
+                <p>Descripción breve del proyecto.</p>
+            </div>
 
-                    <td>
-                        <label for="apellidos">Apellidos:</label>
-                        <input type="text" id="apellidos" name="apellidos"
-                        title="Introduce tus apellidos">
-                    </td>
-                </tr>
+        </div>
 
-                <!-- Contraseñas -->
-                <tr>
-                    <td>
-                        <label for="password">Contraseña:</label>
-                        <input type="password" id="password" name="password"
-                        title="Introduce tu contraseña">
-                    </td>
-
-                    <td>
-                        <label for="password2">Confirmar contraseña:</label>
-                        <input type="password" id="password2" name="password2"
-                        title="Confirma tu contraseña">
-                    </td>
-                </tr>
-
-                <!-- Email -->
-                <tr>
-                    <td colspan="2">
-                        <label for="email">Email:</label>
-                        <input type="text" id="email" name="email"
-                        title="Introduce tu correo electrónico">
-                    </td>
-                </tr>
-
-                <!-- Sexo -->
-                <tr>
-                    <td>
-                        <label>Sexo:</label>
-                    </td>
-
-                    <td>
-                        <input type="radio" id="hombre" name="sexo"
-                        value="Hombre">
-                        <label for="hombre">Hombre</label>
-
-                        <input type="radio" id="mujer" name="sexo"
-                        value="Mujer" checked>
-                        <label for="mujer">Mujer</label>
-                    </td>
-                </tr>
-
-                <!-- Aficiones -->
-                <tr>
-                    <td>
-                        <label>Aficiones:</label>
-                    </td>
-
-                    <td>
-                        <input type="checkbox" id="deporte" name="aficiones"
-                        value="Deporte">
-                        <label for="deporte">Deportes</label>
-                        <br>
-
-                        <input type="checkbox" id="lectura" name="aficiones"
-                        value="Lectura" checked>
-                        <label for="lectura">Lectura</label>
-                        <br>
-
-                        <input type="checkbox" id="cine" name="aficiones"
-                        value="Cine">
-                        <label for="cine">Cine</label>
-                    </td>
-                </tr>
-
-                <!-- País -->
-                <tr>
-                    <td>
-                        <label for="pais">País:</label>
-                    </td>
-
-                    <td>
-                        <select id="pais" name="pais"
-                        title="Selecciona tu país">
-                            <option value="España" selected>España</option>
-                            <option value="Francia">Francia</option>
-                            <option value="Portugal">Portugal</option>
-                        </select>
-                    </td>
-                </tr>
-
-                <!-- Fotografía -->
-                <tr>
-                    <td>
-                        <label for="foto">Subir su foto:</label>
-                    </td>
-
-                    <td>
-                        <input type="file" id="foto" name="foto"
-                        title="Selecciona una fotografía">
-                    </td>
-                </tr>
-
-                <!-- Comentarios -->
-                <tr>
-                    <td>
-                        <label for="comentarios">Comentarios personales:</label>
-                    </td>
-
-                    <td>
-                        <textarea id="comentarios" name="comentarios"
-                        cols="40" rows="5"
-                        placeholder="Escriba aquí sus comentarios"
-                        title="Escribe tus comentarios personales"></textarea>
-                    </td>
-                </tr>
-
-                <!-- Botones -->
-                <tr>
-                    <td class="boton">
-                        <button type="reset">Reinicializar</button>
-                    </td>
-
-                    <td class="boton">
-                        <button type="submit">Enviar</button>
-                    </td>
-                </tr>
-
-            </table>
-
-        </form>
+        <div class="pie">
+            <p>© 2026 · Tu nombre</p>
+        </div>
 
     </div>
 
