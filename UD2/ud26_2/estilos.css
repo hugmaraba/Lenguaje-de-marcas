@@ -1,0 +1,60 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+form {
+    width: 350px;
+}
+
+form > label {
+    display: block;
+    margin-top: 15px;
+}
+
+input:not([type="checkbox"]):not([type="radio"]) {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    background-color: lightblue;
+}
+
+input:required {
+    border-left: 4px solid red;
+}
+
+input:read-only {
+    background-color: lightgray;
+}
+
+input:disabled {
+    opacity: 0.5;
+    background-color: gray;
+}
+
+input:checked + label {
+    font-weight: bold;
+    color: green;
+}
+
+input:hover:focus {
+    background-color: lightgreen;
+}
+
+.opcion {
+    margin: 10px 0;
+}
+
+.opcion label {
+    display: inline;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+}
