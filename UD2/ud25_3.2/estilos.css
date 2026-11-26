@@ -1,0 +1,32 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.comentarios {
+    width: 300px;
+    height: 120px;
+    border: 2px solid black;
+    overflow: auto;
+}
+
+.comentarios p {
+    padding: 5px;
+}
+
+.tarjeta {
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 10px;
+}
+
+.ocultar-visibility {
+    visibility: hidden;
+}
+
+.ocultar-display {
+    display: none;
+}
